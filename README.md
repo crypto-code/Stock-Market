@@ -21,3 +21,68 @@ Even though the name sounds fancy but under the hood, it’s perhaps the simples
 Our task in reinforcement learning is to find the parameters (weights and biases) of the neural network (weights and biases) that make the agent win more often and hence get more rewards. 
 
 For more info check out this [article](https://towardsdatascience.com/reinforcement-learning-without-gradients-evolving-agents-using-genetic-algorithms-8685817d84f)
+
+## Requirements
+* Python 3.6.2 (https://www.python.org/downloads/release/python-362/)
+* Numpy (https://pypi.org/project/numpy/)
+* Tensorflow (https://pypi.org/project/tensorflow/)
+* Keras (https://pypi.org/project/Keras/)
+* Seaborn (https://pypi.org/project/seaborn/)
+* Yahoo-Finance (https://pypi.org/project/yahoo-finance/)
+* Pandas (https://pypi.org/project/pandas/)
+* Matplotlib (https://pypi.org/project/matplotlib/)
+
+## Usage
+* For Stock Market Predictions run main-predict.py:
+```
+python main-predict.py --help
+
+usage: main-predict.py [-h] --symbol SYMBOL [--period PERIOD]
+                       [--epochs EPOCHS] [--sims SIMS]
+
+Train Stock Market Predictor
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --symbol SYMBOL  Symbol of Stock to use
+  --period PERIOD  Data period to download Valid periods are: nd, nmo, ny, max
+                   (n is integer)
+  --epochs EPOCHS  Number of training epochs
+  --sims SIMS      Number of Simulations
+```
+
+* For Stock Market Agent run main-agent.py:
+```
+python main-agent.py --help
+
+usage: main-agent.py [-h] --symbol SYMBOL [--period PERIOD] [--epochs EPOCHS]
+                     [--initial INITIAL] [--skip SKIP]
+
+Stock Market Agent
+
+optional arguments:
+  -h, --help         show this help message and exit
+  --symbol SYMBOL    Symbol of Stock to use
+  --period PERIOD    Data period to download Valid periods are: nd, nmo, ny,
+                     max (n is integer)
+  --epochs EPOCHS    Number of training epochs
+  --initial INITIAL  Initial Money Available
+  --skip SKIP        Number of days to skip in between
+```
+
+## Results
+
+* Stock Market Prediction:
+<p align="center">
+<img src="https://github.com/crypto-code/Stock-Market/blob/master/assets/Prediction.png" align="middle" />  </p>
+
+* Stock Market Agent:
+<p align="center">
+<img src="https://github.com/crypto-code/Stock-Market/blob/master/assets/Agent.png" align="middle" />  </p>
+
+
+
+# G00D LUCK
+
+For doubts email me at:
+atinsaki@gmail.com
