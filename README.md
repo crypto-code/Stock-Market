@@ -1,6 +1,9 @@
 # Stock-Market
 Stock Market Prediction &amp; Trading Bot using AI
 
+
+**NOTE: AN IMPROVED VERSION OF THIS PROJECT WITH A WEB INTERFACE IS PRESENT [HERE](https://github.com/crypto-code/Stock-Market-AI-GUI)**
+
 ## Stock Market Prediction using an LSTM Network
 Long Short Term Memory networks – usually just called “LSTMs” – are a special kind of RNN, capable of learning long-term dependencies. They were introduced by Hochreiter & Schmidhuber (1997), and were refined and popularized by many people in following work. They work tremendously well on a large variety of problems, and are now widely used. LSTMs are explicitly designed to avoid the vanishing gradient problem. 
 
